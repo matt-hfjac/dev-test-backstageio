@@ -1,12 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: harp-web
-  description: harp website
+  name: dev-test-backstage
   annotations:
     github.com/project-slug: matt-hfjac/dev-test-backstageio
 spec:
-  type: website
-  lifecycle: production
-  owner: harp-relations-team
-  system: public-websites
+  type: other
+  lifecycle: unknown
+  owner: team-a
